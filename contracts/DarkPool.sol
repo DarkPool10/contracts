@@ -1,9 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.10;
 
-import "hardhat/console.sol";
-
-contract TenOrderBookSwap {
+contract DarkPool {
     // Public token addresses
     address public tokenA;
     address public tokenB;
