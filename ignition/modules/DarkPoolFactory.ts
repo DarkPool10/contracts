@@ -1,6 +1,6 @@
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
-const DarkPoolFactoryModule = buildModule("DarkPoolFactoryModule", (m) => {
+const DarkPoolFactoryModule = buildModule("DarkPoolFactoryModuleD", (m) => {
   const darkPoolFactory = m.contract("DarkPoolFactory", [], {});
 
   return { darkPoolFactory };

@@ -10,13 +10,13 @@ if (!privateKey) {
 }
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.10",
+  solidity: "0.8.20",
   networks: {
     hardhat: {
       // Configuration for the Hardhat Network
     },
     ten: {
-      url: "https://testnet.ten.xyz/v1/",
+      url: "https://testnet.ten.xyz/v1/?token=66228CF94036FAA00B76859D9EE109F80AC591E1",
       chainId: 443,
       accounts: [privateKey],
     },
